@@ -1,8 +1,8 @@
 export class Pokemon {
   id: string = '';
-  name: string = '';
-  sprites?: {
-    front_default: string;
+  name!: string ;
+  sprites!: {
+    front_default?: string;
   };
   types?: {
     slot: number;

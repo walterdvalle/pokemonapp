@@ -6,12 +6,18 @@ import { AppComponent } from './app.component';
 import { CardComponent } from './components/card/card.component';
 import { HttpClientModule } from '@angular/common/http';
 import { CapitalizePipe } from './pipes/capitalize.pipe';
+import { SobreComponent } from './components/sobre/sobre.component';
+import { ProdutosComponent } from './components/produtos/produtos.component';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CardComponent,
-    CapitalizePipe
+    CapitalizePipe,
+    SobreComponent,
+    ProdutosComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
